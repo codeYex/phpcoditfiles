@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(1, 1, 41);
+}
+
+.dashboard_nav{
+    background-color: black;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0px white;
+    display: flex;
+    padding: 14px;
+    gap: 20px;
+}
+
+.dashboard_nav a{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.dashboard_nav a:hover{
+    background-color: aquamarine;
+}
+
+.dashboard_nav a.Active{
+    background-color: yellow;
+    color: black;
+}
